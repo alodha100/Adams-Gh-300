@@ -1,0 +1,38 @@
+[
+  {
+    "id": "copilot-fundamentals",
+    "title": "GitHub Copilot fundamentals",
+    "description": "Explore AI-assisted development, suggestions, and responsible use.",
+    "duration": "45 minutes"
+  },
+  {
+    "id": "effective-prompts",
+    "title": "Writing effective prompts",
+    "description": "Give Copilot clear instructions, useful context, and examples.",
+    "duration": "45 minutes"
+  },
+  {
+    "id": "copilot-chat",
+    "title": "Copilot Chat in your IDE",
+    "description": "Understand code, ask questions, and iterate on implementations.",
+    "duration": "60 minutes"
+  },
+  {
+    "id": "testing-debugging",
+    "title": "Testing and debugging",
+    "description": "Generate focused tests and investigate bugs with Copilot.",
+    "duration": "60 minutes"
+  },
+  {
+    "id": "refactoring",
+    "title": "Refactoring and documentation",
+    "description": "Improve existing code and create helpful project documentation.",
+    "duration": "45 minutes"
+  },
+  {
+    "id": "hands-on-lab",
+    "title": "Hands-on Copilot lab",
+    "description": "Extend this website with new features in a guided practical session.",
+    "duration": "90 minutes"
+  }
+]

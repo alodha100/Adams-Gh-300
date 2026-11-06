@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GH-300 training for Telstra</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav aria-label="Main navigation">
+        <a class="brand" href="/">Telstra <span>× GitHub Copilot</span></a>
+        <a href="#register">Explore training ↓</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero" aria-labelledby="heading">
+        <p class="eyebrow">LEARN. BUILD. INNOVATE.</p>
+        <h1 id="heading">GH-300 training<br>for Telstra</h1>
+        <p class="intro">Build your confidence with GitHub Copilot. Explore practical
+          sessions designed for Telstra employees, from your first prompt to your next feature.</p>
+        <a class="button" href="#register">Find your next session</a>
+        <p class="note">Hands-on learning · Developer-focused · Powered by curiosity</p>
+      </section>
+      <section id="register" aria-labelledby="register-heading">
+        <p class="eyebrow">YOUR NEXT SKILL STARTS HERE</p>
+        <h2 id="register-heading">Choose a topic. Start building.</h2>
+        <p>Select one session and enter your details to register. You can register for more topics afterwards.</p>
+        <p class="demo-notice"><strong>Demo only:</strong> use fictional details. Registrations are
+          stored in server memory, reset on restart, and do not send email or reserve real training places.
+          This demo does not verify employee identity.</p>
+        <form id="registration-form">
+          <fieldset>
+            <legend>Available training topics</legend>
+            <div id="topics" class="topics" aria-busy="true">Loading training topics…</div>
+          </fieldset>
+          <div class="details">
+            <div>
+              <label for="name">Full name</label>
+              <input id="name" name="name" autocomplete="name" maxlength="100" required>
+            </div>
+            <div>
+              <label for="email">Work email</label>
+              <input id="email" name="email" type="email" autocomplete="email" maxlength="254" required>
+            </div>
+          </div>
+          <button id="submit" type="submit" disabled>Register for training</button>
+          <p id="status" role="status" aria-live="polite" aria-atomic="true"></p>
+        </form>
+      </section>
+    </main>
+    <footer>Telstra learning demo · Built to explore what’s possible with GitHub Copilot.</footer>
+  </body>
+</html>
